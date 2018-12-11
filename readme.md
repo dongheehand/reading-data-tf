@@ -12,7 +12,9 @@ You should download pre-trained VGG19 weight [vgg19.npy](https://mega.nz/#!xZ8gl
 I measured the average time for predicting class label.
 
 GPU : Nvidia Tesla K80
+
 CPU : Intel(R) Xeon(R) CPU E5-2686 v4@2.30GHz
+
 Batch size : 32
 
 || With tf.data API  | w.o tf.data API(using feed_dict) |
