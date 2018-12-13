@@ -13,14 +13,14 @@ I measured the average time for predicting class label.
 
 GPU : Nvidia Tesla K80
 
-CPU : Intel(R) Xeon(R) CPU E5-2686 v4@2.30GHz
+CPU : Intel(R) Xeon(R) CPU E5-2686 v4 @ 2.30GHz
 
 Batch size : 32
 
 || With tf.data API  | w.o tf.data API(using feed_dict) |
 |------| ------------- | ------------- |
-|in_memory| 0.3459s | 0.3410s  |
-|disk based| 1.4656s  | 4.0910s  |
+|in_memory| 0.3459s/batch | 0.3410s/batch  |
+|disk based| 1.4656s/batch  | 4.0910s/batch  |
 
 
 
